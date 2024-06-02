@@ -1,0 +1,112 @@
+{
+    "app_id": "936619743392459",
+    "app_uid": "42618356932",
+    "app_ver": "1.0.0",
+    "claims": [
+        "hmac.AR3OaJcgdnpVSPjzWZ9yViv0uLiLZMxx0CGAJE3R1hENfewY"
+    ],
+    "data": [
+        {
+            "extra": {
+                "follow_status": "not_following",
+                "loop_count": 5,
+                "m_ts": 1709927194,
+                "playing_audio": 1,
+                "radio_type": "none-none",
+                "seq_num": 51,
+                "timeAsPercent": 1,
+                "video_width": 576,
+                "m_pk": "3319432214917805258_59384664484",
+                "a_i": "organic",
+                "a_pk": "59384664484",
+                "is_dash_eligible": 1,
+                "nav_chain": "PolarisFeedRoot:feedPage:1:via_cold_start",
+                "pk": "42618356932",
+                "playback_format": "dash",
+                "time_spent_id": "yf2nnd",
+                "tracking_token": "eyJ2ZXJzaW9uIjo1LCJwYXlsb2FkIjp7ImlzX2FuYWx5dGljc190cmFja2VkIjpmYWxzZSwidXVpZCI6ImU4ZDIwMmQzNzQwZDRhZmQ5ODA0ZjM0MzU0NmUxNTI1MzMxOTQzMjIxNDkxNzgwNTI1OCIsInNlcnZlcl90b2tlbiI6IjE3MDk5Nzk5ODg1ODF8MzMxOTQzMjIxNDkxNzgwNTI1OHw0MjYxODM1NjkzMnxkOTI0MTBjMTNlMTIzZGExYWU4ODNkMjhkZjk1OTRjMmY5NjY0NzNkMjYxNTg5OWQ0NDNmMDY2N2JkYzA1Y2E3In0sInNpZ25hdHVyZSI6IiJ9"
+            },
+            "name": "video_buffering_started",
+            "time": 1709980147.673,
+            "module": "feed_timeline"
+        },
+        {
+            "extra": {
+                "follow_status": "not_following",
+                "loop_count": 5,
+                "lsp": 2.23,
+                "m_ts": 1709927194,
+                "playing_audio": 1,
+                "radio_type": "none-none",
+                "seq_num": 52,
+                "timeAsPercent": 0.0024040758168728023,
+                "video_width": 576,
+                "m_pk": "3319432214917805258_59384664484",
+                "a_i": "organic",
+                "a_pk": "59384664484",
+                "is_dash_eligible": 1,
+                "nav_chain": "PolarisFeedRoot:feedPage:1:via_cold_start",
+                "pk": "42618356932",
+                "playback_format": "dash",
+                "time_spent_id": "yf2nnd",
+                "tracking_token": "eyJ2ZXJzaW9uIjo1LCJwYXlsb2FkIjp7ImlzX2FuYWx5dGljc190cmFja2VkIjpmYWxzZSwidXVpZCI6ImU4ZDIwMmQzNzQwZDRhZmQ5ODA0ZjM0MzU0NmUxNTI1MzMxOTQzMjIxNDkxNzgwNTI1OCIsInNlcnZlcl90b2tlbiI6IjE3MDk5Nzk5ODg1ODF8MzMxOTQzMjIxNDkxNzgwNTI1OHw0MjYxODM1NjkzMnxkOTI0MTBjMTNlMTIzZGExYWU4ODNkMjhkZjk1OTRjMmY5NjY0NzNkMjYxNTg5OWQ0NDNmMDY2N2JkYzA1Y2E3In0sInNpZ25hdHVyZSI6IiJ9"
+            },
+            "name": "video_buffering_finished",
+            "time": 1709980147.694,
+            "module": "feed_timeline"
+        },
+        {
+            "extra": {
+                "follow_status": "not_following",
+                "loop_count": 6,
+                "m_ts": 1709927194,
+                "playing_audio": 1,
+                "radio_type": "none-none",
+                "seq_num": 53,
+                "timeAsPercent": 1,
+                "video_width": 576,
+                "m_pk": "3319432214917805258_59384664484",
+                "a_i": "organic",
+                "a_pk": "59384664484",
+                "is_dash_eligible": 1,
+                "nav_chain": "PolarisFeedRoot:feedPage:1:via_cold_start",
+                "pk": "42618356932",
+                "playback_format": "dash",
+                "time_spent_id": "yf2nnd",
+                "tracking_token": "eyJ2ZXJzaW9uIjo1LCJwYXlsb2FkIjp7ImlzX2FuYWx5dGljc190cmFja2VkIjpmYWxzZSwidXVpZCI6ImU4ZDIwMmQzNzQwZDRhZmQ5ODA0ZjM0MzU0NmUxNTI1MzMxOTQzMjIxNDkxNzgwNTI1OCIsInNlcnZlcl90b2tlbiI6IjE3MDk5Nzk5ODg1ODF8MzMxOTQzMjIxNDkxNzgwNTI1OHw0MjYxODM1NjkzMnxkOTI0MTBjMTNlMTIzZGExYWU4ODNkMjhkZjk1OTRjMmY5NjY0NzNkMjYxNTg5OWQ0NDNmMDY2N2JkYzA1Y2E3In0sInNpZ25hdHVyZSI6IiJ9"
+            },
+            "name": "video_buffering_started",
+            "time": 1709980154.598,
+            "module": "feed_timeline"
+        },
+        {
+            "extra": {
+                "follow_status": "not_following",
+                "loop_count": 6,
+                "lsp": 2.23,
+                "m_ts": 1709927194,
+                "playing_audio": 1,
+                "radio_type": "none-none",
+                "seq_num": 54,
+                "timeAsPercent": 0.003162368011739933,
+                "video_width": 576,
+                "m_pk": "3319432214917805258_59384664484",
+                "a_i": "organic",
+                "a_pk": "59384664484",
+                "is_dash_eligible": 1,
+                "nav_chain": "PolarisFeedRoot:feedPage:1:via_cold_start",
+                "pk": "42618356932",
+                "playback_format": "dash",
+                "time_spent_id": "yf2nnd",
+                "tracking_token": "eyJ2ZXJzaW9uIjo1LCJwYXlsb2FkIjp7ImlzX2FuYWx5dGljc190cmFja2VkIjpmYWxzZSwidXVpZCI6ImU4ZDIwMmQzNzQwZDRhZmQ5ODA0ZjM0MzU0NmUxNTI1MzMxOTQzMjIxNDkxNzgwNTI1OCIsInNlcnZlcl90b2tlbiI6IjE3MDk5Nzk5ODg1ODF8MzMxOTQzMjIxNDkxNzgwNTI1OHw0MjYxODM1NjkzMnxkOTI0MTBjMTNlMTIzZGExYWU4ODNkMjhkZjk1OTRjMmY5NjY0NzNkMjYxNTg5OWQ0NDNmMDY2N2JkYzA1Y2E3In0sInNpZ25hdHVyZSI6IiJ9"
+            },
+            "name": "video_buffering_finished",
+            "time": 1709980154.627,
+            "module": "feed_timeline"
+        }
+    ],
+    "device_id": "9AB3E6C7-5C7D-4A74-A9D5-EE004D16C51E",
+    "log_type": "client_event",
+    "seq": 18,
+    "session_id": "gjqhe2:73heat:yf2nnd"
+}
