@@ -9,9 +9,7 @@ const cookieParser = require("cookie-parser");
 const { userRouter } = require("./routes/User");
 const { verifyToken } = require("./Middleware/jwtAuth");
 const { postRouter } = require("./routes/Post");
-// const origin = process.env.ORIGIN;
 dotenv.config();
-console.log(process.env.ORIGIN)
 //-------------------------------
 
 const app = express();
@@ -19,11 +17,9 @@ const app = express();
 
 app.use(cors({
   origin : process.env.ORIGIN,
-  // origin : 'https://65e97a4330aaecc1ed1fc0f1--deluxe-liger-72a1fa.netlify.app',
   credentials : true
 }));
 
-// console.log(origin)
 
 dotenv.config();
 app.use(express.urlencoded({ extended: true }));
