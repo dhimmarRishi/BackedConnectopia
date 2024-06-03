@@ -39,14 +39,14 @@ const storage = multer.diskStorage({
 
 
 const upload = multer({storage : storage} );
-const PORT = process.env.PORT || 6000;
+const PORTe = process.env.PORT || 8000;
 //----------------------------------------
 
 mongoose
   .connect(process.env.MONGO_DB_URL)
   .then(() => {
-    app.listen(PORT, () => {
-      console.log("Connected to Db and server running on " + PORT);
+    app.listen( PORTe, () => {
+      console.log("Connected to Db and server running on " + PORTe);
     });
   })
   .catch((err) => console.log(err));
