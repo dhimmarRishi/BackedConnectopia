@@ -53,6 +53,11 @@ mongoose
 
 
 
+app.get("/" , (req , res) => {
+  console.log("Live");
+  res.json({msg : "The Backend id live"})
+})
+
 app.post("/auth/register", upload.single("file"), handleRegister);
 app.post("/auth/login", handleUserLogin);
 app.use("/user",verifyToken, userRouter);
