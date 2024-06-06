@@ -2,9 +2,10 @@ const jwt = require('jsonwebtoken')
 
 const verifyToken = (req , res , next) => {
 
-    const {token} = req.cookies;
+    const token = req.headers['authorization'];
+    const tokenPart = token.split(' ')[1]
 
-    // console.log(token);
+    console.log(tokenPart);
     if(!token) {
 
         console.log('Token not found');
@@ -12,7 +13,7 @@ const verifyToken = (req , res , next) => {
 
     } else {
 
-        const valid = jwt.verify(token , process.env.JWT_SECRET_KEY);
+        const valid = jwt.verify(tokenPart , process.env.JWT_SECRET_KEY);
         
         if(!valid) {
             console.log("Token is invalid");

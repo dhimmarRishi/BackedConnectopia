@@ -90,6 +90,7 @@ const handleGetRandomPosts = async (req, res) => {
 
 const handleLikePost = async (req, res) => {
   try {
+    console.log("Like the post")
     const { post_id } = req.params;
 
     const post = await Post.findById(post_id);

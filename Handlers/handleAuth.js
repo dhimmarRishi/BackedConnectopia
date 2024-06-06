@@ -49,7 +49,7 @@ const handleRegister = async (req, res) => {
 };
 
 const handleUserLogin = async (req, res) => {
-  // console.log(req.body);
+  console.log(req.body);
 
   const { handle, password } = req.body;
   const user = await User.findOne({ handle });
